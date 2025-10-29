@@ -29,7 +29,10 @@ int main(){
 
     var /= N;
 
+    double sd = sqrt(var);
+
     std::cout << sum << std::endl;
     std::cout << mean << std::endl;
     std::cout << var << std::endl;
+    std::cout << sd << std::endl;
 }
